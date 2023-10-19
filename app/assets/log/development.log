@@ -1,0 +1,859 @@
+Started GET "/" for 127.0.0.1 at 2023-10-19 12:29:26 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for PagesController):
+  
+actionpack (7.1.1) lib/abstract_controller/base.rb:155:in `process'
+actionview (7.1.1) lib/action_view/rendering.rb:40:in `process'
+actionpack (7.1.1) lib/action_controller/metal.rb:227:in `dispatch'
+actionpack (7.1.1) lib/action_controller/metal.rb:309:in `dispatch'
+actionpack (7.1.1) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.1.1) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.1.1) lib/action_dispatch/journey/router.rb:51:in `block in serve'
+actionpack (7.1.1) lib/action_dispatch/journey/router.rb:131:in `block in find_routes'
+actionpack (7.1.1) lib/action_dispatch/journey/router.rb:124:in `each'
+actionpack (7.1.1) lib/action_dispatch/journey/router.rb:124:in `find_routes'
+actionpack (7.1.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.1.1) lib/action_dispatch/routing/route_set.rb:882:in `call'
+rack (3.0.8) lib/rack/tempfile_reaper.rb:20:in `call'
+rack (3.0.8) lib/rack/etag.rb:29:in `call'
+rack (3.0.8) lib/rack/conditional_get.rb:31:in `call'
+rack (3.0.8) lib/rack/head.rb:15:in `call'
+actionpack (7.1.1) lib/action_dispatch/http/permissions_policy.rb:36:in `call'
+actionpack (7.1.1) lib/action_dispatch/http/content_security_policy.rb:33:in `call'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:272:in `context'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:266:in `call'
+actionpack (7.1.1) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (7.1.1) lib/active_record/migration.rb:653:in `call'
+actionpack (7.1.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+activesupport (7.1.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.1.1) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+actionpack (7.1.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.1) lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+actionpack (7.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.1.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (7.1.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (7.1.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (7.1.1) lib/active_support/tagged_logging.rb:135:in `block in tagged'
+activesupport (7.1.1) lib/active_support/tagged_logging.rb:39:in `tagged'
+activesupport (7.1.1) lib/active_support/tagged_logging.rb:135:in `tagged'
+activesupport (7.1.1) lib/active_support/broadcast_logger.rb:232:in `method_missing'
+railties (7.1.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.1.1) lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+actionpack (7.1.1) lib/action_dispatch/middleware/request_id.rb:28:in `call'
+rack (3.0.8) lib/rack/method_override.rb:28:in `call'
+rack (3.0.8) lib/rack/runtime.rb:24:in `call'
+activesupport (7.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.1.1) lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+actionpack (7.1.1) lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+actionpack (7.1.1) lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+actionpack (7.1.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.1) lib/action_dispatch/middleware/static.rb:25:in `call'
+rack (3.0.8) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.1.1) lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+railties (7.1.1) lib/rails/engine.rb:529:in `call'
+puma (6.4.0) lib/puma/configuration.rb:272:in `call'
+puma (6.4.0) lib/puma/request.rb:100:in `block in handle_request'
+puma (6.4.0) lib/puma/thread_pool.rb:378:in `with_force_shutdown'
+puma (6.4.0) lib/puma/request.rb:99:in `handle_request'
+puma (6.4.0) lib/puma/server.rb:443:in `process_client'
+puma (6.4.0) lib/puma/server.rb:241:in `block in run'
+puma (6.4.0) lib/puma/thread_pool.rb:155:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2023-10-19 12:30:37 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 185)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 5978)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.0ms | Allocations: 10635)
+
+
+  
+ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2023-10-19 12:31:27 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 4672)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 4901)
+
+
+  
+ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2023-10-19 12:32:11 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 4670)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 4898)
+
+
+  
+ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2023-10-19 12:33:39 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 93)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 4931)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 5809)
+
+
+  
+ActionView::Template::Error (The asset "application.bootstrap.scss.css" is not present in the asset pipeline.
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application.bootstrap.scss", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2023-10-19 12:34:01 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 93)
+  Rendered layout layouts/application.html.erb (Duration: 19.9ms | Allocations: 5667)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.0ms | Allocations: 6556)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: bootstrap/scss/bootstrap.
+        on line 4:1 of app/assets/stylesheets/application.bootstrap.scss
+>> @import 'bootstrap/scss/bootstrap';
+
+   ^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application.bootstrap", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2023-10-19 12:41:56 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 185)
+  Rendered layout layouts/application.html.erb (Duration: 6462.1ms | Allocations: 143770)
+Completed 500 Internal Server Error in 6473ms (ActiveRecord: 0.0ms | Allocations: 147779)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+
+and restart your server):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2023-10-19 12:43:25 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 185)
+  Rendered layout layouts/application.html.erb (Duration: 131.0ms | Allocations: 52321)
+Completed 500 Internal Server Error in 145ms (ActiveRecord: 0.0ms | Allocations: 56330)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+
+and restart your server):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2023-10-19 12:51:53 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 128)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 5352)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms | Allocations: 6244)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: bootstrap/scss/bootstrap.
+        on line 3:1 of app/assets/stylesheets/application.scss
+>> @import 'bootstrap/scss/bootstrap';
+
+   ^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2023-10-19 12:52:15 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 5744.9ms | Allocations: 56418)
+Completed 500 Internal Server Error in 5746ms (ActiveRecord: 0.0ms | Allocations: 56647)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+
+and restart your server):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2023-10-19 12:53:33 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 219)
+  Rendered layout layouts/application.html.erb (Duration: 6248.8ms | Allocations: 157920)
+Completed 500 Internal Server Error in 6269ms (ActiveRecord: 0.0ms | Allocations: 165539)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+
+and restart your server):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2023-10-19 12:54:22 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 67.9ms | Allocations: 30869)
+Completed 500 Internal Server Error in 69ms (ActiveRecord: 0.0ms | Allocations: 31098)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+
+and restart your server):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2023-10-19 12:54:37 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 219)
+  Rendered layout layouts/application.html.erb (Duration: 131.3ms | Allocations: 54208)
+Completed 500 Internal Server Error in 143ms (ActiveRecord: 0.0ms | Allocations: 58217)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+
+and restart your server):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2023-10-19 12:55:01 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 219)
+  Rendered layout layouts/application.html.erb (Duration: 113.7ms | Allocations: 61907)
+Completed 200 OK in 126ms (Views: 119.1ms | ActiveRecord: 0.0ms | Allocations: 65964)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-19 12:55:47 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 23.3ms | Allocations: 20526)
+Completed 200 OK in 24ms (Views: 23.8ms | ActiveRecord: 0.0ms | Allocations: 20775)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-19 13:07:02 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 455.3ms | Allocations: 26658)
+Completed 500 Internal Server Error in 456ms (ActiveRecord: 0.0ms | Allocations: 26920)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: ../node_modules/bootstrap/scss/functions.
+        on line 5:1 of app/assets/stylesheets/application.scss
+>> @import "../node_modules/bootstrap/scss/functions";
+
+   ^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2023-10-19 13:10:08 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 435.4ms | Allocations: 16735)
+Completed 500 Internal Server Error in 436ms (ActiveRecord: 0.0ms | Allocations: 16972)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: ../node_modules/bootstrap/scss/functions.
+        on line 5:1 of app/assets/stylesheets/application.scss
+>> @import "../node_modules/bootstrap/scss/functions";
+
+   ^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2023-10-19 13:12:30 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 8527.3ms | Allocations: 60202)
+Completed 200 OK in 8528ms (Views: 8527.8ms | ActiveRecord: 0.0ms | Allocations: 60451)
+
+
+Started GET "/contact" for 127.0.0.1 at 2023-10-19 13:14:18 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/contact"):
+  
+Started GET "/about" for 127.0.0.1 at 2023-10-19 13:14:29 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/about"):
+  
+Started GET "/" for 127.0.0.1 at 2023-10-19 13:28:42 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 82)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 131)
+  Rendered layouts/_footer.html.erb (Duration: 0.9ms | Allocations: 107)
+  Rendered layout layouts/application.html.erb (Duration: 33.6ms | Allocations: 26446)
+Completed 200 OK in 36ms (Views: 35.5ms | ActiveRecord: 0.0ms | Allocations: 27345)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-19 13:29:52 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 82)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 127)
+  Rendered layouts/_footer.html.erb (Duration: 0.8ms | Allocations: 101)
+  Rendered layout layouts/application.html.erb (Duration: 24.9ms | Allocations: 25985)
+Completed 200 OK in 28ms (Views: 27.0ms | ActiveRecord: 0.0ms | Allocations: 26887)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-19 13:30:24 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 86)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 127)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 101)
+  Rendered layout layouts/application.html.erb (Duration: 29.1ms | Allocations: 26427)
+Completed 200 OK in 32ms (Views: 30.8ms | ActiveRecord: 0.0ms | Allocations: 27329)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-19 13:32:44 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 82)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 129)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 102)
+  Rendered layout layouts/application.html.erb (Duration: 27.1ms | Allocations: 26464)
+Completed 200 OK in 30ms (Views: 28.8ms | ActiveRecord: 0.0ms | Allocations: 27363)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-19 13:33:14 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 82)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 127)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 102)
+  Rendered layout layouts/application.html.erb (Duration: 23.9ms | Allocations: 26139)
+Completed 200 OK in 27ms (Views: 25.6ms | ActiveRecord: 0.0ms | Allocations: 27041)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-19 13:33:32 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 86)
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 127)
+  Rendered layouts/_footer.html.erb (Duration: 0.7ms | Allocations: 102)
+  Rendered layout layouts/application.html.erb (Duration: 25.1ms | Allocations: 26426)
+Completed 200 OK in 28ms (Views: 27.3ms | ActiveRecord: 0.0ms | Allocations: 27328)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-19 13:33:58 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.0ms | Allocations: 84)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 127)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 102)
+  Rendered layout layouts/application.html.erb (Duration: 25.2ms | Allocations: 26447)
+Completed 200 OK in 28ms (Views: 27.0ms | ActiveRecord: 0.0ms | Allocations: 27349)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-19 13:34:35 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.4ms | Allocations: 82)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 131)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 102)
+  Rendered layout layouts/application.html.erb (Duration: 34.1ms | Allocations: 26293)
+Completed 200 OK in 37ms (Views: 35.8ms | ActiveRecord: 0.0ms | Allocations: 27194)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-19 13:36:57 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 8)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 14.1ms | Allocations: 8048)
+Completed 200 OK in 17ms (Views: 14.6ms | ActiveRecord: 0.0ms | Allocations: 8292)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-19 13:37:38 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 82)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 129)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 104)
+  Rendered layout layouts/application.html.erb (Duration: 31.1ms | Allocations: 26214)
+Completed 200 OK in 34ms (Views: 33.1ms | ActiveRecord: 0.0ms | Allocations: 27116)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-19 13:38:34 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 82)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 129)
+  Rendered layouts/_footer.html.erb (Duration: 0.7ms | Allocations: 104)
+  Rendered layout layouts/application.html.erb (Duration: 95.1ms | Allocations: 26326)
+Completed 200 OK in 102ms (Views: 100.5ms | ActiveRecord: 0.0ms | Allocations: 27228)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-19 13:39:36 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 82)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 127)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 106)
+  Rendered layout layouts/application.html.erb (Duration: 25.0ms | Allocations: 26261)
+Completed 200 OK in 27ms (Views: 26.7ms | ActiveRecord: 0.0ms | Allocations: 27163)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-19 13:40:15 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 86)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 127)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 106)
+  Rendered layout layouts/application.html.erb (Duration: 26.9ms | Allocations: 26323)
+Completed 200 OK in 30ms (Views: 28.5ms | ActiveRecord: 0.0ms | Allocations: 27225)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-19 13:41:02 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 82)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 129)
+  Rendered layouts/_footer.html.erb (Duration: 0.8ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 26.7ms | Allocations: 26155)
+Completed 200 OK in 29ms (Views: 28.4ms | ActiveRecord: 0.0ms | Allocations: 27056)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-19 13:41:05 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 7990)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms | Allocations: 8234)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-19 13:41:56 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 82)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 127)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 110)
+  Rendered layout layouts/application.html.erb (Duration: 22.2ms | Allocations: 26191)
+Completed 200 OK in 25ms (Views: 23.8ms | ActiveRecord: 0.0ms | Allocations: 27093)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-19 13:42:35 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 86)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 127)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 112)
+  Rendered layout layouts/application.html.erb (Duration: 23.0ms | Allocations: 26314)
+Completed 200 OK in 26ms (Views: 24.7ms | ActiveRecord: 0.0ms | Allocations: 27216)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-19 13:44:11 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 84)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 127)
+  Rendered layouts/_footer.html.erb (Duration: 0.7ms | Allocations: 112)
+  Rendered layout layouts/application.html.erb (Duration: 27.8ms | Allocations: 26315)
+Completed 200 OK in 31ms (Views: 29.8ms | ActiveRecord: 0.0ms | Allocations: 27217)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-19 13:44:49 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 82)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 131)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 113)
+  Rendered layout layouts/application.html.erb (Duration: 34.2ms | Allocations: 26301)
+Completed 200 OK in 37ms (Views: 35.9ms | ActiveRecord: 0.0ms | Allocations: 27202)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-19 13:45:09 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 82)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 127)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 113)
+  Rendered layout layouts/application.html.erb (Duration: 23.9ms | Allocations: 26267)
+Completed 200 OK in 26ms (Views: 25.5ms | ActiveRecord: 0.0ms | Allocations: 27169)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-19 13:47:58 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 86)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 128)
+  Rendered layouts/_footer.html.erb (Duration: 0.7ms | Allocations: 112)
+  Rendered layout layouts/application.html.erb (Duration: 22.7ms | Allocations: 26328)
+Completed 200 OK in 25ms (Views: 24.3ms | ActiveRecord: 0.0ms | Allocations: 27230)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-19 13:49:04 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.0ms | Allocations: 84)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 128)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 112)
+  Rendered layout layouts/application.html.erb (Duration: 25.6ms | Allocations: 26313)
+Completed 200 OK in 29ms (Views: 27.3ms | ActiveRecord: 0.0ms | Allocations: 27215)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-19 13:49:27 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.6ms | Allocations: 84)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 128)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 113)
+  Rendered layout layouts/application.html.erb (Duration: 29.1ms | Allocations: 26463)
+Completed 200 OK in 32ms (Views: 30.9ms | ActiveRecord: 0.0ms | Allocations: 27367)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-19 13:49:36 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 82)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 130)
+  Rendered layouts/_footer.html.erb (Duration: 1.2ms | Allocations: 112)
+  Rendered layout layouts/application.html.erb (Duration: 45.5ms | Allocations: 26193)
+Completed 200 OK in 49ms (Views: 48.0ms | ActiveRecord: 0.0ms | Allocations: 27093)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-19 13:51:22 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 17.7ms | Allocations: 7943)
+Completed 200 OK in 19ms (Views: 18.3ms | ActiveRecord: 0.0ms | Allocations: 8187)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-19 13:52:53 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 18.4ms | Allocations: 7958)
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.0ms | Allocations: 8202)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-19 13:52:54 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 7971)
+Completed 200 OK in 11ms (Views: 10.9ms | ActiveRecord: 0.0ms | Allocations: 8215)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-19 13:53:17 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 82)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 132)
+  Rendered layouts/_footer.html.erb (Duration: 1.2ms | Allocations: 112)
+  Rendered layout layouts/application.html.erb (Duration: 30.6ms | Allocations: 26316)
+Completed 200 OK in 33ms (Views: 32.5ms | ActiveRecord: 0.0ms | Allocations: 27219)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-19 13:57:24 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 82)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 128)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 112)
+  Rendered layout layouts/application.html.erb (Duration: 23.4ms | Allocations: 26072)
+Completed 200 OK in 26ms (Views: 25.2ms | ActiveRecord: 0.0ms | Allocations: 26973)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-19 13:57:53 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 86)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 127)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 112)
+  Rendered layout layouts/application.html.erb (Duration: 27.7ms | Allocations: 26443)
+Completed 200 OK in 33ms (Views: 30.3ms | ActiveRecord: 0.0ms | Allocations: 27345)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-19 13:59:25 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 84)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 127)
+  Rendered layouts/_footer.html.erb (Duration: 0.8ms | Allocations: 112)
+  Rendered layout layouts/application.html.erb (Duration: 42.3ms | Allocations: 26453)
+Completed 200 OK in 48ms (Views: 44.6ms | ActiveRecord: 0.0ms | Allocations: 27355)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-19 14:00:06 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 82)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 132)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 112)
+  Rendered layout layouts/application.html.erb (Duration: 38.5ms | Allocations: 26500)
+Completed 200 OK in 41ms (Views: 40.4ms | ActiveRecord: 0.0ms | Allocations: 27399)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-19 14:00:17 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 82)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 130)
+  Rendered layouts/_footer.html.erb (Duration: 1.2ms | Allocations: 112)
+  Rendered layout layouts/application.html.erb (Duration: 30.9ms | Allocations: 26435)
+Completed 200 OK in 34ms (Views: 33.0ms | ActiveRecord: 0.0ms | Allocations: 27337)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-19 14:22:41 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.9ms | Allocations: 82)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 132)
+  Rendered layouts/_footer.html.erb (Duration: 0.7ms | Allocations: 112)
+  Rendered layout layouts/application.html.erb (Duration: 79.6ms | Allocations: 26532)
+Completed 200 OK in 87ms (Views: 84.3ms | ActiveRecord: 0.0ms | Allocations: 27434)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-19 14:22:48 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 82)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 128)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 112)
+  Rendered layout layouts/application.html.erb (Duration: 29.3ms | Allocations: 26148)
+Completed 200 OK in 32ms (Views: 31.5ms | ActiveRecord: 0.0ms | Allocations: 27050)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-19 14:24:32 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 86)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 128)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 112)
+  Rendered layout layouts/application.html.erb (Duration: 25.6ms | Allocations: 26482)
+Completed 200 OK in 32ms (Views: 29.3ms | ActiveRecord: 0.0ms | Allocations: 27388)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-19 14:24:43 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 84)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 128)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 112)
+  Rendered layout layouts/application.html.erb (Duration: 27.7ms | Allocations: 26452)
+Completed 200 OK in 31ms (Views: 29.7ms | ActiveRecord: 0.0ms | Allocations: 27355)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-19 14:24:52 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 82)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 132)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 112)
+  Rendered layout layouts/application.html.erb (Duration: 40.7ms | Allocations: 26282)
+Completed 200 OK in 45ms (Views: 43.7ms | ActiveRecord: 0.0ms | Allocations: 27182)
+
+
